@@ -4,14 +4,35 @@
 ## (C) Doug Hoyte and contributors
 ##
 ## We're trying to keep this restricted to "general purpose" formats although
-## that is flexible. As a rule of thumb, implementations should have implementations
+## that is flexible. As a rule of thumb, formats should have implementations
 ## in at least 2 languages.
+##
+## When it's fleshed out enough we'll render it into a fancy web-page, complete
+## with filtering, grouping by tags, cross-referenced benchmarks, etc.
 ##
 ## Pull requests gladly accepted at: https://github.com/hoytech/serialipedia
 ##
+## Fields:
+##   desc:
+##     Short blurb about the format, taken from the project's website,
+##     wikipedia, or similar.
+##   released:
+##     Date the format was first release to the public:
+##     YYYY, YYYY-MM, or YYYY-MM-DD
+##   tags:
+##     Free-form tags, comma-separated
+##   standards:
+##     Any documents released by official standards bodies.
+##   common-uses:
+##     Generally acknowledged common use-cases.
+##   urls:
+##     Official URLs for more information.
+##   notes:
+##     Free-form notes of interest
+##
 
 json:
-  desc: (JavaScript Object Notation) is a lightweight data-interchange format.It is easy for humans to read and write. It is easy for machines to parse and generate.
+  desc: (JavaScript Object Notation) is a lightweight data-interchange format. It is easy for humans to read and write. It is easy for machines to parse and generate.
   released: 2001-04
   tags: self-describing, human-readable
   standards:
