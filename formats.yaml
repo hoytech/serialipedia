@@ -1,0 +1,95 @@
+##
+## Serialipedia -- Meta-data related to popular serialization formats
+##
+## (C) Doug Hoyte and contributors
+##
+## We're trying to keep this restricted to "general purpose" formats although
+## that is flexible. As a rule of thumb, implementations should have implementations
+## in at least 2 languages.
+##
+## Pull requests gladly accepted at: https://github.com/hoytech/serialipedia
+##
+
+json:
+  desc: (JavaScript Object Notation) is a lightweight data-interchange format.It is easy for humans to read and write. It is easy for machines to parse and generate.
+  released: 2001-04
+  tags: self-describing, human-readable
+  standards:
+    - ECMA-404
+    - RFC 7159
+  common-uses:
+    - APIs
+  urls:
+    - http://json.org/
+
+yaml:
+  desc: Human friendly data serialization standard for all programming languages.
+  released: 2001-05-15
+  tags: self-describing, human-readable
+  common-uses:
+    - Config files
+  urls:
+    - http://yaml.org/
+
+asn1:
+  desc: Standard and notation that describes rules and structures for representing, encoding, transmitting, and decoding data in telecommunications and computer networking.
+  tags: schema, multi-encoding
+  released: 1984
+  standards:
+    - X.208
+    - X.608
+  urls:
+    - http://www.asn1.org/
+
+protobuf:
+  desc: A language-neutral, platform-neutral extensible mechanism for serializing structured data.
+  tags: schema, google
+  released: 2008-07-07
+  urls:
+    - https://developers.google.com/protocol-buffers/
+
+fix:
+  desc: Real-time exchange of information related to the securities transactions and markets.
+  released: 1992
+  tags: finance, multi-encoding
+  urls:
+    - http://www.fixtradingcommunity.org/
+    - http://www.fixtradingcommunity.org/pg/structure/tech-specs/fast-protocol
+    - https://github.com/FIXTradingCommunity/fix-simple-binary-encoding
+
+capnproto:
+  desc: Insanely fast data interchange format and capability-based RPC system.
+  tags: schema, no-encode-decode-step
+  released: 2013-02
+  urls:
+    - https://capnproto.org/
+
+qstruct:
+  desc: A binary data serialisation format where the in-memory representation is the same as the serialized format.
+  tags: schema, no-encode-decode-step, incomplete
+  released: 2014-04
+  urls:
+    - https://github.com/hoytech/Qstruct
+
+thrift:
+
+avro:
+  tags: schema, apache
+  notes:
+    - Schema usually included in serialized data
+
+ion:
+  tags: schema, multi-encoding, amazon
+
+cbor:
+  tags: self-describing
+
+messagepack:
+  tags: self-describing
+
+sereal:
+
+blinkprotocol:
+  tags: schema, multi-encoding
+  urls:
+    - http://blinkprotocol.org/
