@@ -2,6 +2,7 @@
 ## Serialipedia -- Meta-data related to popular serialization formats
 ##
 ## (C) Doug Hoyte and contributors
+## License: https://creativecommons.org/licenses/by-sa/2.0/
 ##
 ## We're trying to keep this restricted to "general purpose" formats although
 ## that is flexible. As a rule of thumb, formats should have implementations
